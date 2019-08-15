@@ -1,0 +1,373 @@
+/* @import url(./mobile.css); */
+/* 全局样式 */
+body {
+  background: #f0f2f5;
+  font-family: STHeiti;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+}
+.mobileLayout {
+  display: none;
+}
+/**************/
+/* 顶部导航样式 */
+.topHead {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  line-height: 65px;
+  font-size: 16px;
+}
+.topNav a {
+  padding: 0 10px;
+  color: #fff;
+}
+.rightSearch {
+  float: right;
+}
+/* 搜索框 */
+.searchInput {
+  margin-right: 20px;
+  width: 65px;
+  padding-right: 23px;
+  padding-left: 12px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: #000;
+  background-image: url("./img/search.png");
+  background-repeat: no-repeat;
+  background-position: 77px 5px;
+  border: 1px solid #484848;
+  caret-color: #fff;
+}
+/* 管理中心按钮 */
+.manageCenter {
+  border: 1px solid #484848;
+  color: #fff;
+  background: #000;
+  font-size: 14px;
+  padding: 5px 14px;
+  cursor: pointer;
+}
+.topTitleBanner{
+  width: 100%;
+}
+.topTitleBanner img {
+  width: 100%;
+}
+/**************/
+/* 页面主体内容 */
+.pageMain {
+  margin: 45px 10px;
+  background: #fff;
+  overflow: hidden;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.listTitle {
+  font-size: 18px;
+  color: #999;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+.leftList {
+  width: calc(100% - 380px);
+  border-right: 1px solid #e4e9f0;
+  padding: 40px 50px;
+  box-sizing: border-box;
+}
+.leftList, .rightNav {
+  margin-bottom: -9999px;
+  padding-bottom: 9999px;
+  font-size: 16px;
+  float: left;
+}
+/* 文章列表 */
+.listItem {
+  border-bottom: 1px solid #e1e8f0;
+  margin-bottom: 45px;
+}
+.itemTitle {
+  font-size: 18px;
+  color: #000;
+  font-weight: bolder;
+  text-align: justify;
+  letter-spacing: 2px;
+  margin-bottom: 28px;
+  line-height: 28px;
+}
+.itemTitle:hover {
+  color: #3992ea;
+  cursor: pointer;
+}
+/* 标题特殊标记 */
+.special {
+  display: inline-block;
+  font-style: normal;
+  font-size: 12px;
+  color: #ff7a0f;
+  border: 1px solid #ff7a0f;
+  border-radius: 2px;
+  margin-left: 10px;
+  width: 18px;
+  line-height: 18px;
+  margin-top: 2px;
+  letter-spacing: 0;
+  text-align: center;
+  vertical-align: text-top;
+  font-weight: bold;
+}
+.informationLine {
+  margin-bottom: 35px;
+  font-size: 12px;
+  color: #666666;
+}
+.informationLine a {
+  color: #666666;
+}
+.informationLine a:hover {
+  color: #3992ea;
+  cursor: pointer;
+}
+.author {
+  margin-right: 30px;
+}
+.itemContent {
+  color: #666666;
+  font-size: 14px;
+  line-height: 25px;
+  word-wrap:break-word; 
+  word-break:normal;
+  text-align: justify;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.listItem footer {
+  font-size: 12px;
+  color: #666666;
+  margin-bottom: 40px;
+}
+.listItem footer img{
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.releaseTime, .readNum {
+  margin-right: 30px;
+  vertical-align: text-top;
+}
+/* 正文分页部分 */
+.pageLine {
+  text-align: center;
+  width: 100%;
+  color: #7a7a7a;
+}
+.pageBtn {
+  display: inline-block;
+  border: 1px solid #dddddd;
+  color: #7a7a7a;
+  cursor: pointer;
+  width: 35px;
+  line-height: 35px;
+}
+.pageBtn:hover {
+  border-color: #999;
+  color: #333;
+}
+.pageLine .active {
+  border: 0;
+  font-weight: bold;
+  color: #333;
+}
+.pageWord {
+  width: 74px;
+}
+/* 侧边栏 */
+.rightNav{
+  width: 380px;
+  box-sizing: border-box;
+  padding: 40px 50px;
+}
+.websiteNav {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.liItem {
+  padding-left: 13px;
+  color: #8f8f8f;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.websiteNav .active {
+  padding: 0;
+  color: #2277da;
+}
+.websiteNav .active span {
+  display: inline-block;
+  padding-left: 10px;
+  border-left: 3px solid #2277da;
+}
+.rightNav h3 {
+  font-size: 14px;
+  color: #a0a0a0;
+  text-indent: 13px;
+  margin-bottom: 15px;
+}
+.tipNav, .yearNav {
+  text-indent: 13px;
+  font-size: 14px;
+  color: #666666;
+  padding-bottom: 30px;
+}
+.navItem {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.navItem:hover, .navItem:hover span {
+  color: #2277da;
+}
+.yearNav {
+  border-bottom: 1px solid #e4e9f0;
+}
+.navItem span {
+  color: #999;
+}
+.loginFlag {
+  padding: 40px 10px;
+  color: #666;
+  text-align: left;
+}
+.loginBtn {
+  width: 90px;
+  line-height: 35px;
+  color: #fff;
+  background: #2277da;
+  text-align: center;
+  border-color: #2277da;
+  border-radius: 2px;
+  border-style: none;
+  margin-top: 20px;
+}
+/**************/
+/* 底部视频列表 */
+.videoLine {
+  margin-bottom: 45px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.videoTitle {
+  border-bottom: 1px solid #dcddde;
+  padding-bottom: 12px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.videoTitle strong {
+  font-size: 24px;
+  color: #000;
+  margin-right: 10px;
+}
+.more {
+  color: #2277da;
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+  bottom: 12px;
+}
+.videoList {
+  text-align: justify;
+}
+/* div两端对齐失效解决 */
+.videoList::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+.videoItem {
+  display: inline-block;
+}
+.videoItem:last-child {
+  margin: 0;
+}
+.videoItem .topImg {
+  width: 280px;
+  height: 156px;
+  position: relative;
+}
+.topImg img {
+  width: 100%;
+}
+.videoSee {
+  position: absolute;
+  bottom: 5px;
+  right: 42px;
+  width: 37px;
+  height: 17px;
+  color: #fff;
+  background: #0bc8d9;
+  font-size: 12px;
+  text-align: center;
+}
+.videoTime {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 37px;
+  height: 17px;
+  color: #fff;
+  background: #000;
+  font-size: 12px;
+  text-align: center;
+}
+.bottomTitle {
+  box-sizing: border-box;
+  width: 280px;
+  line-height: 40px;
+  font-size: 12px;
+  color: #484848;
+  padding-left: 15px;
+  background-color: #fff;
+  text-align: left;
+}
+/**************/
+/* 底部声明样式 */
+.bottomFoot {
+  width: 100%;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  line-height: 60px;
+  font-size: 14px;
+}
+/* 自适应适配部分 */
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+  .videoLine {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+  .container {
+    max-width: 1000px;
+  }
+  .leftList {
+    width: 600px;
+  }
+  .videoLine {
+    display: none;
+  }
+  body {
+    width: 1000px;
+    overflow: scroll;
+  }
+}
+/**************/

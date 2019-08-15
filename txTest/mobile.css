@@ -1,0 +1,98 @@
+/* 移动端样式表 */
+/* 通用样式 */
+body {
+  width: 100%;
+}
+.mobileLayout {
+  display: block;
+}
+.rightSearch, .pcLayout, .topTitleBanner, .videoLine {
+  display: none;
+}
+/* 顶部导航样式 */
+.topHead {
+  line-height: 3.25rem;
+  padding-left: 1.4rem;
+  font-size: 0.8rem;
+}
+/* 下拉导航样式 */
+.mobileNav .title {
+  line-height: 3.125rem;
+  text-indent: 1.7rem;
+  color: #333;
+  background: #fff;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+#navList {
+  display: block;
+  overflow: hidden;
+}
+.mobileNav h3{
+  text-indent: 1.7rem;
+  background: #f8f8f8;
+  color: #acacac;
+  line-height: 2.2rem;
+}
+.liItem {
+  text-indent: 1.7rem;
+  line-height: 2.2rem;
+  background: #fff;
+  color: #666;
+  padding: 0;
+  width: 100%;
+  border-bottom: 1px solid #f8f8f8;
+  margin-bottom: 0;
+}
+/* 移动端新闻样式 */
+.listItem:first-child {
+  margin-top: 1.5rem;
+}
+.mobileList {
+  padding: 0 1.75rem;
+}
+.mobileList .listItem {
+  margin-bottom: 1.5rem;
+}
+.mobileList .itemTitle {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1.4rem;
+}
+.informationLine {
+  margin-bottom: 1.4rem;
+}
+.itemContent {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.listItem footer {
+  margin-bottom: 1.5rem;
+}
+/* 分页部分 */
+.pageLine {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+.pageLine::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+.pageBtn {
+  border: 0;
+  display: inline-block;
+  text-align: center;
+}
+.pageWord {
+  color: #2277da;
+}
+/* 底部版权声明 */
+.bottomFoot {
+  line-height: 3.25rem;
+  font-size: 0.8rem;
+  color: #999;
+  background: #f6f6f6;
+}
